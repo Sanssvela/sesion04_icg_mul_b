@@ -1,0 +1,38 @@
+Santiago Andres Segura Velandia
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 514</title>
+</head>
+<body>
+    <canvas id="lineas" width="300px" height="300px" style="border: 2px solid gray;"></canvas>
+
+    <script>
+        window.addEventListener('load', () => {
+            let canvasLineas = document.getElementById('lineas');
+            let ctx = canvasLineas.getContext('2d');
+
+            ctx.beginPath();
+            ctx.strokeStyle = 'crimson';
+            ctx.moveTo(195, 120);
+            ctx.lineTo(100, 250);
+            ctx.stroke();
+ctx.beginPath();
+      ctx.beginPath();
+            ctx.strokeStyle = 'yellow';
+            ctx.moveTo(135, 150);
+            ctx.lineTo(190, 200);
+            ctx.stroke();
+
+	    ctx.beginPath();
+            ctx.strokeStyle = 'red';
+            ctx.moveTo(167, 146);
+            ctx.lineTo(190, 200);
+            ctx.stroke();
+});
+    </script>
+</body>
+</html
